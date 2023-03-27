@@ -11,27 +11,56 @@
         android:layout_width="283dp"
         android:layout_height="22dp"
         android:text="Etes-vous prets a tester vos limites ?"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="316dp"
+        android:layout_height="263dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="374dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="94dp"
+        app:cardBackgroundColor="#FAF5F5"
+        app:cardCornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/playButton"
+            android:layout_width="279dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="17sp"
+            android:layout_marginTop="50sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginBottom="5sp"
+            android:text="Jouer" />
+
+        <Button
+            android:id="@+id/ScoreButton"
+            android:layout_width="261dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="28sp"
+            android:layout_marginTop="150sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginBottom="5sp"
+            android:text="Vos scores" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="163dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="518dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.459" />
-
-    <Button
-        android:id="@+id/playButton"
-        android:layout_width="227dp"
-        android:layout_height="66dp"
-        android:text="Jouer"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="439dp" />
-
-    <Button
-        android:id="@+id/ScoreButton"
-        android:layout_width="227dp"
-        android:layout_height="66dp"
-        android:text="Vos scores"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="522dp" />
+        tools:srcCompat="@tools:sample/avatars" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
