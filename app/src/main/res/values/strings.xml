@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Projet_Jeu_Mobile</string>
+    <string name="txtHighscore">Highscore :</string>
+    <string name="txtScoreActuel">Score :</string>
+    <string name="htSaisiReponse">Saisir Votre Réponse</string>
+    <string name="btnVALIDER">VALIDER</string>
+    <string name="txtHealth">Vie Restante :</string>
+    <string name="txtBlanc">..</string>
+
 </resources>

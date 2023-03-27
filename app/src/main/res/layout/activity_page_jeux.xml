@@ -23,7 +23,7 @@
             android:layout_height="wrap_content">
 
             <LinearLayout
-                android:id="@+id/interface"
+                android:id="@+id/appliAccueil"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -35,13 +35,13 @@
                         android:id="@+id/txtHighscore"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Highscore : " />
+                        android:text="@string/txtHighscore" />
 
                     <TextView
                         android:id="@+id/txtValeurHighscore"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=".." />
+                        android:text="@string/txtBlanc" />
 
                 </LinearLayout>
 
@@ -54,13 +54,13 @@
                         android:id="@+id/txtHealth"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Vie Restante :" />
+                        android:text="@string/txtHealth" />
 
                     <TextView
                         android:id="@+id/txtValueHealth"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=".." />
+                        android:text="@string/txtBlanc" />
 
                 </LinearLayout>
 
@@ -82,14 +82,14 @@
                     android:id="@+id/txtScoreActuel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Score : " />
+                    android:text="@string/txtScoreActuel" />
 
                 <TextView
                     android:id="@+id/txtValueScoreActuel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text=".." />
+                    android:text="@string/txtBlanc" />
             </LinearLayout>
 
             <LinearLayout
@@ -104,7 +104,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text=".." />
+                    android:text="@string/txtBlanc" />
 
                 <TextView
                     android:id="@+id/txtSymbole"
@@ -112,7 +112,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text=".." />
+                    android:text="@string/txtBlanc" />
 
                 <TextView
                     android:id="@+id/txtNb2"
@@ -120,11 +120,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text=".." />
+                    android:text="@string/txtBlanc" />
 
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/lytEspace"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:orientation="vertical">
@@ -136,17 +137,18 @@
                 android:layout_height="match_parent">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/htSaisiReponse"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#FAF5F5"
-                    android:hint="Saisir Votre Réponse" />
+                    android:hint="@string/htSaisiReponse" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
                 android:id="@+id/btnVALIDER"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
-                android:text="VALIDER"
+                android:text="@string/btnVALIDER"
                 app:cornerRadius="180dp" />
         </LinearLayout>
 
