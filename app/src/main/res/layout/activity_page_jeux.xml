@@ -138,7 +138,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#C8E6C9"
+                    android:background="#FAF5F5"
                     android:hint="Saisir Votre Réponse" />
             </com.google.android.material.textfield.TextInputLayout>
 
